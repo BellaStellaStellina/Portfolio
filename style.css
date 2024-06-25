@@ -1,0 +1,126 @@
+html, body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.navbar{
+    background-color: white !important;
+    box-shadow: none; 
+}
+
+.main-name {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45pt;
+}
+
+.pink {
+    color: 	pink;
+}
+
+.stella{
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover; 
+    border: 10px solid pink;
+    border-radius: 50%;
+}
+
+.grasso-text{
+    font-weight: bold;
+}
+
+.who-am-i{
+    letter-spacing: 5px;
+}
+
+a{
+    font-weight: 400;
+}
+
+.social-holder{
+    max-width: 100pt;
+}
+
+.symbol {
+    font-size: 25px; /* Adjust size of heart */
+    color: pink; /* Color of the heart */
+    margin-top: 2px; /* Space between text and heart */
+}
+
+.main-header{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45pt;
+}
+
+.lang-skills{
+    font-size: 15pt;
+}
+
+.main-skills{
+    width: 125px;
+}
+
+.mockup{
+    transition: transform .2s;
+}
+
+.mockup:hover {
+    transform: scale(1.1);
+  }
+
+.fa-icon {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.fa-icon:hover {
+    color: pink;
+}
+
+.flag-text {
+    font-size: 35px; /* Adjust text size */
+    font-weight: bold; /* Bold text */
+    margin: 20px 0; /* Space between words */
+    display: inline-block; /* Allows multiple spans to stay inline */
+}
+
+.flag-text span {
+    display: inline-block; /* Ensure spans stay inline and responsive */
+    padding: 0 3px; /* Optional: Add padding for better letter spacing */
+}
+
+/* Italian flag colors for each letter */
+.italian span:nth-child(1) { color: #77DD77; }  /* I */
+.italian span:nth-child(2) { color: #FF6961; }  /* T */
+.italian span:nth-child(3) { color: #77DD77; }    /* A */
+.italian span:nth-child(4) { color: #FF6961; }  /* L */
+.italian span:nth-child(5) { color: #77DD77; }  /* I */
+.italian span:nth-child(6) { color: #FF6961; }    /* A */
+.italian span:nth-child(7) { color: #77DD77; }  /* N */
+
+/* English flag colors for each letter */
+.english span:nth-child(1) { color: #75E6DA; }    /* E */
+.english span:nth-child(2) { color: #FF6961; }  /* N */
+.english span:nth-child(3) { color: #75E6DA; }   /* G */
+.english span:nth-child(4) { color: #FF6961; }    /* L */
+.english span:nth-child(5) { color: #75E6DA; }  /* I */
+.english span:nth-child(6) { color: #FF6961; }   /* S */
+.english span:nth-child(7) { color: #75E6DA; }    /* H */
+
+/* Polish flag colors for each letter */
+.polish span:nth-child(1) { color: #FF6961; }     /* P */
+.polish span:nth-child(2) { color: pink; }   /* O */
+.polish span:nth-child(3) { color: #FF6961; }     /* L */
+.polish span:nth-child(4) { color: pink; }   /* I */
+.polish span:nth-child(5) { color: #FF6961; }     /* S */
+.polish span:nth-child(6) { color: pink; }   /* H */
