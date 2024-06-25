@@ -45,6 +45,10 @@ a{
     font-weight: 400;
 }
 
+a .fa-icon{
+    color: #4F4F4F;
+}
+
 .social-holder{
     max-width: 100pt;
 }
